@@ -1,0 +1,2961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>710</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1371</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(13, 237, 225, 1);</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>1040</x>
+       <y>10</y>
+       <width>281</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>40</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>myLibKOM</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_3" native="true">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>0</y>
+       <width>91</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>81</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/image/unnes.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>100</y>
+      <width>141</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(164, 240, 236, 1);</string>
+    </property>
+    <widget class="QPushButton" name="btn_1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="mouseTracking">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	background-color:rgba(255, 255, 255, 1);
+	border-radius:5px;
+	border: 0px solid;
+}
+
+QPushButton:hover {
+	background-color: rgb(85, 170, 255);
+}</string>
+     </property>
+     <property name="text">
+      <string>Beranda</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	background-color:rgba(255, 255, 255, 1);
+	border-radius:5px;
+	border: 0px solid;
+}
+QPushButton:hover {
+	background-color: rgb(85, 170, 255);
+}</string>
+     </property>
+     <property name="text">
+      <string>Peminjaman</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>170</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	background-color:rgba(255, 255, 255, 1);
+	border-radius:5px;
+	border: 0px solid;
+}
+QPushButton:hover {
+	background-color: rgb(85, 170, 255);
+}</string>
+     </property>
+     <property name="text">
+      <string>Pengembalian</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>240</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	background-color:rgba(255, 255, 255, 1);
+	border-radius:5px;
+	border: 0px solid;
+}
+QPushButton:hover {
+	background-color: rgb(85, 170, 255);
+}</string>
+     </property>
+     <property name="text">
+      <string>Anggota</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_5">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>310</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	background-color:rgba(255, 255, 255, 1);
+	border-radius:5px;
+	border: 0px solid;
+}
+QPushButton:hover {
+	background-color: rgb(85, 170, 255);
+}</string>
+     </property>
+     <property name="text">
+      <string>Data Buku</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>380</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	background-color:rgba(255, 255, 255, 1);
+	border-radius:5px;
+	border: 0px solid;
+}
+QPushButton:hover {
+	background-color: rgb(85, 170, 255);
+}</string>
+     </property>
+     <property name="text">
+      <string>Laporan</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_7">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>560</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	background-color:rgba(249, 4, 4, 1);
+	border-radius:5px;;
+	border: 0px solid;
+}
+QPushButton:hover {
+	background-color: rgb(170, 0, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>Log Out</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>100</y>
+      <width>1231</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page_1">
+     <widget class="QWidget" name="widget_selamatdatang" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1251</width>
+        <height>611</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>180</y>
+         <width>811</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>13</pointsize>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>myLibKOM adalah aplikasi perpustakaan berbasis GUI Jurusan Ilmu Komputer. Aplikasi ini dikembangkan oleh mahasiswa program Studi Sistem Informasi angkatan 2020. Pengembang aplikasi myLibKOM diantaranya: 
+1. Sarmini 
+2. Nur Afan Syarifudin
+3. Dilla Caroline Khairunnisa
+4. Johan Damar Aji Rahmatulloh</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>30</y>
+         <width>811</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>30</pointsize>
+         <bold>true</bold>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="text">
+        <string>SELAMAT DATANG DI APLIKASI myLibKOM</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QWidget" name="widget_pinjam" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1231</width>
+        <height>611</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <widget class="QWidget" name="form_pinjam" native="true">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>591</width>
+         <height>571</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(229, 229, 229);
+</string>
+       </property>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>0</y>
+          <width>361</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+          <bold>true</bold>
+          <underline>false</underline>
+         </font>
+        </property>
+        <property name="text">
+         <string>FORMULIR PEMINJAMAN</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_NIM">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>90</y>
+          <width>301</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>90</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>NIM</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>130</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Kode Buku</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>170</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Judul Buku</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>210</y>
+          <width>151</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Tanggal Peminjaman</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>250</y>
+          <width>161</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Tanggal Pengembalian</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_kbuku">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>130</y>
+          <width>301</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_jbuku">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>170</y>
+          <width>301</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+       <widget class="QDateEdit" name="tgl_pinjam_p2">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>210</y>
+          <width>301</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+       <widget class="QDateEdit" name="tgl_kembali_p2">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>250</y>
+          <width>301</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="simpan_p2">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>310</y>
+          <width>71</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	border-radius:5px;
+	background-color:rgba(81, 204, 37, 1);
+	border: 0px solid;
+}
+QPushButton:hover {
+	background-color: rgb(0, 255, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Simpan</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="batal_p2">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>310</y>
+          <width>71</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background-color:rgba(249, 4, 4, 1);
+	border-radius:5px;;
+	border: 0px solid;
+}
+QPushButton:hover {
+	background-color: rgb(170, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Batal</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="form_riwayat" native="true">
+       <property name="geometry">
+        <rect>
+         <x>630</x>
+         <y>20</y>
+         <width>581</width>
+         <height>571</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(229, 229, 229);</string>
+       </property>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>0</y>
+          <width>351</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+          <bold>true</bold>
+          <underline>false</underline>
+         </font>
+        </property>
+        <property name="text">
+         <string>RIWAYAT PEMINJAMAN</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>561</width>
+          <height>511</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QTableWidget" name="tableWidget">
+           <row>
+            <property name="text">
+             <string>a</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>b</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>c</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>d</string>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string>Nomor</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>NIM</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Kode Buku</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Judul Buku</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Tanggal Pinjam</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Tanggal Kembali</string>
+            </property>
+           </column>
+           <item row="0" column="0">
+            <property name="text">
+             <string>1</string>
+            </property>
+           </item>
+           <item row="0" column="1">
+            <property name="text">
+             <string>4612420004</string>
+            </property>
+           </item>
+           <item row="0" column="2">
+            <property name="text">
+             <string>46521</string>
+            </property>
+           </item>
+           <item row="0" column="3">
+            <property name="text">
+             <string>Bahasa Pemrograman Python</string>
+            </property>
+           </item>
+           <item row="0" column="4">
+            <property name="text">
+             <string>12/06/2021</string>
+            </property>
+           </item>
+           <item row="0" column="5">
+            <property name="text">
+             <string>19/06/2021</string>
+            </property>
+           </item>
+           <item row="1" column="0">
+            <property name="text">
+             <string>2</string>
+            </property>
+           </item>
+           <item row="1" column="1">
+            <property name="text">
+             <string>4612420001</string>
+            </property>
+           </item>
+           <item row="1" column="2">
+            <property name="text">
+             <string>56241</string>
+            </property>
+           </item>
+           <item row="1" column="3">
+            <property name="text">
+             <string>Pemrograman GUI</string>
+            </property>
+           </item>
+           <item row="1" column="4">
+            <property name="text">
+             <string>10/06/2021</string>
+            </property>
+           </item>
+           <item row="1" column="5">
+            <property name="text">
+             <string>17/06/2021</string>
+            </property>
+           </item>
+           <item row="2" column="0">
+            <property name="text">
+             <string>3</string>
+            </property>
+           </item>
+           <item row="2" column="1">
+            <property name="text">
+             <string>4612420013</string>
+            </property>
+           </item>
+           <item row="2" column="2">
+            <property name="text">
+             <string>78822</string>
+            </property>
+           </item>
+           <item row="2" column="3">
+            <property name="text">
+             <string>Mahir Bahasa Python</string>
+            </property>
+           </item>
+           <item row="2" column="4">
+            <property name="text">
+             <string>13/06/2021</string>
+            </property>
+           </item>
+           <item row="2" column="5">
+            <property name="text">
+             <string>20/06/2021</string>
+            </property>
+           </item>
+           <item row="3" column="0">
+            <property name="text">
+             <string>4</string>
+            </property>
+           </item>
+           <item row="3" column="1">
+            <property name="text">
+             <string>4612420038</string>
+            </property>
+           </item>
+           <item row="3" column="2">
+            <property name="text">
+             <string>61176</string>
+            </property>
+           </item>
+           <item row="3" column="3">
+            <property name="text">
+             <string>Logika Pemrograman</string>
+            </property>
+           </item>
+           <item row="3" column="4">
+            <property name="text">
+             <string>5/06/2021</string>
+            </property>
+           </item>
+           <item row="3" column="5">
+            <property name="text">
+             <string>12/06/2021</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QWidget" name="widget_kembali" native="true">
+      <property name="geometry">
+       <rect>
+        <x>-1</x>
+        <y>0</y>
+        <width>1231</width>
+        <height>611</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <widget class="QWidget" name="widget_12" native="true">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>591</width>
+         <height>571</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(229, 229, 229);
+</string>
+       </property>
+       <widget class="QLabel" name="label_12">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>0</y>
+          <width>391</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+          <bold>true</bold>
+          <underline>false</underline>
+         </font>
+        </property>
+        <property name="text">
+         <string>FORMULIR PENGEMBALIAN</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_pengembali">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>90</y>
+          <width>301</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_13">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>90</y>
+          <width>131</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Nama Pengembali </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_14">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>170</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Kode Buku</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_15">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>210</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Judul Buku</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>250</y>
+          <width>161</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Tanggal Pengembalian</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_17">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>290</y>
+          <width>101</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Terlambat</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_kbuku_p3">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>170</y>
+          <width>301</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_jbuku_p3">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>210</y>
+          <width>301</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+       <widget class="QDateEdit" name="tgl_kembali_p3">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>250</y>
+          <width>301</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="simpan_p3">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>390</y>
+          <width>71</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	border-radius:5px;
+	background-color:rgba(81, 204, 37, 1);
+	border: 0px solid;
+}
+QPushButton:hover {
+	background-color: rgb(0, 255, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Simpan</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="batal_p3">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>390</y>
+          <width>71</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background-color:rgba(249, 4, 4, 1);
+	border-radius:5px;;
+	border: 0px solid;
+}
+QPushButton:hover {
+	background-color: rgb(170, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Batal</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="widget_14" native="true">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>0</y>
+          <width>521</width>
+          <height>571</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_19">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>130</y>
+          <width>41</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>NIM</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_nim_p3">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>130</y>
+          <width>301</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_20">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>330</y>
+          <width>71</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Denda</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_terlambat">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>290</y>
+          <width>301</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_denda">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>330</y>
+          <width>301</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="widget_15" native="true">
+       <property name="geometry">
+        <rect>
+         <x>630</x>
+         <y>20</y>
+         <width>581</width>
+         <height>571</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(229, 229, 229);</string>
+       </property>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>0</y>
+          <width>381</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+          <bold>true</bold>
+          <underline>false</underline>
+         </font>
+        </property>
+        <property name="text">
+         <string>RIWAYAT PENGEMBALIAN</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>559</width>
+          <height>509</height>
+         </rect>
+        </property>
+        <row>
+         <property name="text">
+          <string>a</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>b</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>c</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>d</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>Nomor</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Pengembali</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>NIM</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Kode Buku</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Judul Buku</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Tanggal Kembali</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Denda</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string>1</string>
+         </property>
+        </item>
+        <item row="0" column="1">
+         <property name="text">
+          <string>Johan</string>
+         </property>
+        </item>
+        <item row="0" column="2">
+         <property name="text">
+          <string>4612420038</string>
+         </property>
+        </item>
+        <item row="0" column="3">
+         <property name="text">
+          <string>89765</string>
+         </property>
+        </item>
+        <item row="0" column="4">
+         <property name="text">
+          <string>Trends Technology</string>
+         </property>
+        </item>
+        <item row="0" column="5">
+         <property name="text">
+          <string>10/06/2021</string>
+         </property>
+        </item>
+        <item row="0" column="6">
+         <property name="text">
+          <string>10000</string>
+         </property>
+        </item>
+        <item row="1" column="0">
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item row="1" column="1">
+         <property name="text">
+          <string>Nur Afan </string>
+         </property>
+        </item>
+        <item row="1" column="2">
+         <property name="text">
+          <string>4612420004</string>
+         </property>
+        </item>
+        <item row="1" column="3">
+         <property name="text">
+          <string>12571</string>
+         </property>
+        </item>
+        <item row="1" column="4">
+         <property name="text">
+          <string>Pandai Python</string>
+         </property>
+        </item>
+        <item row="1" column="5">
+         <property name="text">
+          <string>10/05/2021</string>
+         </property>
+        </item>
+        <item row="1" column="6">
+         <property name="text">
+          <string>25000</string>
+         </property>
+        </item>
+        <item row="2" column="0">
+         <property name="text">
+          <string>3</string>
+         </property>
+        </item>
+        <item row="2" column="1">
+         <property name="text">
+          <string>Dilla Caroline</string>
+         </property>
+        </item>
+        <item row="2" column="2">
+         <property name="text">
+          <string>4612420012</string>
+         </property>
+        </item>
+        <item row="2" column="3">
+         <property name="text">
+          <string>23457</string>
+         </property>
+        </item>
+        <item row="2" column="4">
+         <property name="text">
+          <string>Cara Mudah Belajar Python</string>
+         </property>
+        </item>
+        <item row="2" column="5">
+         <property name="text">
+          <string>12/06/2021</string>
+         </property>
+        </item>
+        <item row="2" column="6">
+         <property name="text">
+          <string>5000</string>
+         </property>
+        </item>
+        <item row="3" column="0">
+         <property name="text">
+          <string>4</string>
+         </property>
+        </item>
+        <item row="3" column="1">
+         <property name="text">
+          <string>Sarmini</string>
+         </property>
+        </item>
+        <item row="3" column="2">
+         <property name="text">
+          <string>4612420001</string>
+         </property>
+        </item>
+        <item row="3" column="3">
+         <property name="text">
+          <string>65438</string>
+         </property>
+        </item>
+        <item row="3" column="4">
+         <property name="text">
+          <string>Python GUI</string>
+         </property>
+        </item>
+        <item row="3" column="5">
+         <property name="text">
+          <string>5/06/2021</string>
+         </property>
+        </item>
+        <item row="3" column="6">
+         <property name="text">
+          <string>12000</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="QWidget" name="widget_anggota" native="true">
+      <property name="geometry">
+       <rect>
+        <x>-1</x>
+        <y>0</y>
+        <width>1231</width>
+        <height>611</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <widget class="QWidget" name="widget_16" native="true">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>591</width>
+         <height>571</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(229, 229, 229);
+</string>
+       </property>
+       <widget class="QLabel" name="label_21">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>0</y>
+          <width>431</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+          <bold>true</bold>
+          <underline>false</underline>
+         </font>
+        </property>
+        <property name="text">
+         <string>FORMULIR TAMBAH ANGGOTA</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_nama_p4">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>90</y>
+          <width>281</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_22">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>90</y>
+          <width>111</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Nama Lengkap</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_23">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>170</y>
+          <width>101</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Tanggal Lahir</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_24">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>210</y>
+          <width>111</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Program Studi</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_25">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>250</y>
+          <width>191</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Semester yang Di tempuh</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_16">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>250</y>
+          <width>281</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_prodi_p4">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>210</y>
+          <width>281</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+       <widget class="QDateEdit" name="tgl_lahir_p4">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>170</y>
+          <width>281</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="simpan_p4">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>330</y>
+          <width>71</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	border-radius:5px;
+	background-color:rgba(81, 204, 37, 1);
+	border: 0px solid;
+}
+QPushButton:hover {
+	background-color: rgb(0, 255, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Simpan</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="batal_p4">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>330</y>
+          <width>71</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background-color:rgba(249, 4, 4, 1);
+	border-radius:5px;;
+	border: 0px solid;
+}
+QPushButton:hover {
+	background-color: rgb(170, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Batal</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="widget_17" native="true">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>0</y>
+          <width>521</width>
+          <height>571</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_27">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>130</y>
+          <width>41</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>NIM</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_nim_p4">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>130</y>
+          <width>281</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="widget_18" native="true">
+       <property name="geometry">
+        <rect>
+         <x>630</x>
+         <y>20</y>
+         <width>581</width>
+         <height>571</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(229, 229, 229);</string>
+       </property>
+       <widget class="QLabel" name="label_29">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>0</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+          <bold>true</bold>
+          <underline>false</underline>
+         </font>
+        </property>
+        <property name="text">
+         <string>DATA ANGGOTA</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_26">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>50</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+          <bold>false</bold>
+          <underline>true</underline>
+         </font>
+        </property>
+        <property name="text">
+         <string>Cari Anggota</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_28">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>100</y>
+          <width>41</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>NIM</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_30">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>140</y>
+          <width>51</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Nama</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_carinim_p4">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>100</y>
+          <width>341</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_carinama_p4">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>140</y>
+          <width>341</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="cari_p4">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>190</y>
+          <width>71</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	border-radius:5px;
+	background-color:rgba(81, 204, 37, 1);
+	border: 0px solid;
+}
+QPushButton:hover {
+	background-color: rgb(0, 255, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Cari</string>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>250</y>
+          <width>559</width>
+          <height>311</height>
+         </rect>
+        </property>
+        <row>
+         <property name="text">
+          <string>a</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>b</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>c</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>d</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>Nomor</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Nama Lengkap</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>NIM</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Tanggal Lahir</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Program Studi</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Semester</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string>1</string>
+         </property>
+        </item>
+        <item row="0" column="1">
+         <property name="text">
+          <string>Nur Afan Syarifudin</string>
+         </property>
+        </item>
+        <item row="0" column="2">
+         <property name="text">
+          <string>4612420004</string>
+         </property>
+        </item>
+        <item row="0" column="3">
+         <property name="text">
+          <string>13/10/2001</string>
+         </property>
+        </item>
+        <item row="0" column="4">
+         <property name="text">
+          <string>Sistem Informasi </string>
+         </property>
+        </item>
+        <item row="0" column="5">
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item row="1" column="0">
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item row="1" column="1">
+         <property name="text">
+          <string>Sarmini</string>
+         </property>
+        </item>
+        <item row="1" column="2">
+         <property name="text">
+          <string>4612420001</string>
+         </property>
+        </item>
+        <item row="1" column="3">
+         <property name="text">
+          <string>20/8/2002</string>
+         </property>
+        </item>
+        <item row="1" column="4">
+         <property name="text">
+          <string>Sistem Informasi </string>
+         </property>
+        </item>
+        <item row="1" column="5">
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item row="2" column="0">
+         <property name="text">
+          <string>3</string>
+         </property>
+        </item>
+        <item row="2" column="1">
+         <property name="text">
+          <string>Dilla Caroline Khoirunnisa</string>
+         </property>
+        </item>
+        <item row="2" column="2">
+         <property name="text">
+          <string>4612420012</string>
+         </property>
+        </item>
+        <item row="2" column="3">
+         <property name="text">
+          <string>3/3/2001</string>
+         </property>
+        </item>
+        <item row="2" column="4">
+         <property name="text">
+          <string>Sistem Informasi </string>
+         </property>
+        </item>
+        <item row="2" column="5">
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item row="3" column="0">
+         <property name="text">
+          <string>4</string>
+         </property>
+        </item>
+        <item row="3" column="1">
+         <property name="text">
+          <string>Johan Damar Aji R</string>
+         </property>
+        </item>
+        <item row="3" column="2">
+         <property name="text">
+          <string>4612420038</string>
+         </property>
+        </item>
+        <item row="3" column="3">
+         <property name="text">
+          <string>17/8/2001</string>
+         </property>
+        </item>
+        <item row="3" column="4">
+         <property name="text">
+          <string>Sistem Informasi </string>
+         </property>
+        </item>
+        <item row="3" column="5">
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_5">
+     <widget class="QWidget" name="widget_buku" native="true">
+      <property name="geometry">
+       <rect>
+        <x>-1</x>
+        <y>0</y>
+        <width>1231</width>
+        <height>611</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <widget class="QWidget" name="widget_19" native="true">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>591</width>
+         <height>571</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(229, 229, 229);
+</string>
+       </property>
+       <widget class="QLabel" name="label_31">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>0</y>
+          <width>371</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+          <bold>true</bold>
+          <underline>false</underline>
+         </font>
+        </property>
+        <property name="text">
+         <string>FORMULIR TAMBAH BUKU</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_jbuku_p5">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>90</y>
+          <width>341</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_32">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>90</y>
+          <width>111</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Judul Buku</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_33">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>170</y>
+          <width>101</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Tahun Terbit</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_34">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>210</y>
+          <width>111</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Kode Buku</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_kbuku_p5">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>210</y>
+          <width>341</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="simpan_p5">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>290</y>
+          <width>71</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	border-radius:5px;
+	background-color:rgba(81, 204, 37, 1);
+	border: 0px solid;
+}
+QPushButton:hover {
+	background-color: rgb(0, 255, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Simpan</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="batal_p5">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>290</y>
+          <width>71</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background-color:rgba(249, 4, 4, 1);
+	border-radius:5px;;
+	border: 0px solid;
+}
+QPushButton:hover {
+	background-color: rgb(170, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Batal</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="widget_20" native="true">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>0</y>
+          <width>521</width>
+          <height>571</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_36">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>130</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Pengarang</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_pengarang_p5">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>130</y>
+          <width>341</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_tahunterbit_p5">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>170</y>
+          <width>341</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="widget_21" native="true">
+       <property name="geometry">
+        <rect>
+         <x>630</x>
+         <y>20</y>
+         <width>581</width>
+         <height>571</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(229, 229, 229);</string>
+       </property>
+       <widget class="QLabel" name="label_37">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>0</y>
+          <width>181</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+          <bold>true</bold>
+          <underline>false</underline>
+         </font>
+        </property>
+        <property name="text">
+         <string>DATA BUKU</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_38">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>50</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+          <bold>false</bold>
+          <underline>true</underline>
+         </font>
+        </property>
+        <property name="text">
+         <string>Cari Buku</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_39">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>100</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Kode Buku</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_40">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>140</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Judul Buku</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_kbuku_p5_2">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>100</y>
+          <width>301</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_jbuku_p5_2">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>140</y>
+          <width>301</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:2px;
+background-color:rgba(197, 197, 197, 1);</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="cari_p5">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>190</y>
+          <width>71</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	border-radius:5px;
+	background-color:rgba(81, 204, 37, 1);
+	border: 0px solid;
+}
+QPushButton:hover {
+	background-color: rgb(0, 255, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Cari</string>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>250</y>
+          <width>559</width>
+          <height>311</height>
+         </rect>
+        </property>
+        <row>
+         <property name="text">
+          <string>a</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>b</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>c</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>d</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>e</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>f</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>Nomor</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Pengarang</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Tahun Terbit</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Judul Buku</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Kode Buku</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string>1</string>
+         </property>
+        </item>
+        <item row="0" column="1">
+         <property name="text">
+          <string>Jogiyanto Hartono</string>
+         </property>
+        </item>
+        <item row="0" column="2">
+         <property name="text">
+          <string>2005</string>
+         </property>
+        </item>
+        <item row="0" column="3">
+         <property name="text">
+          <string>Sistem Informasi Manajemen</string>
+         </property>
+        </item>
+        <item row="0" column="4">
+         <property name="text">
+          <string>45673</string>
+         </property>
+        </item>
+        <item row="1" column="0">
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item row="1" column="1">
+         <property name="text">
+          <string>Jogiyanto Hartono</string>
+         </property>
+        </item>
+        <item row="1" column="2">
+         <property name="text">
+          <string>2001</string>
+         </property>
+        </item>
+        <item row="1" column="3">
+         <property name="text">
+          <string>Sistem Informasi Manajemen</string>
+         </property>
+        </item>
+        <item row="1" column="4">
+         <property name="text">
+          <string>45673</string>
+         </property>
+        </item>
+        <item row="2" column="0">
+         <property name="text">
+          <string>3</string>
+         </property>
+        </item>
+        <item row="2" column="1">
+         <property name="text">
+          <string>Jogiyanto Hartono</string>
+         </property>
+        </item>
+        <item row="2" column="2">
+         <property name="text">
+          <string>2007</string>
+         </property>
+        </item>
+        <item row="2" column="3">
+         <property name="text">
+          <string>Sistem Informasi Manajemen</string>
+         </property>
+        </item>
+        <item row="2" column="4">
+         <property name="text">
+          <string>45673</string>
+         </property>
+        </item>
+        <item row="3" column="0">
+         <property name="text">
+          <string>4</string>
+         </property>
+        </item>
+        <item row="3" column="1">
+         <property name="text">
+          <string>Jogiyanto Hartono</string>
+         </property>
+        </item>
+        <item row="3" column="2">
+         <property name="text">
+          <string>2010</string>
+         </property>
+        </item>
+        <item row="3" column="3">
+         <property name="text">
+          <string>Sistem Informasi Manajemen</string>
+         </property>
+        </item>
+        <item row="3" column="4">
+         <property name="text">
+          <string>45673</string>
+         </property>
+        </item>
+        <item row="4" column="0">
+         <property name="text">
+          <string>5</string>
+         </property>
+        </item>
+        <item row="4" column="1">
+         <property name="text">
+          <string>Jogiyanto Hartono</string>
+         </property>
+        </item>
+        <item row="4" column="2">
+         <property name="text">
+          <string>2009</string>
+         </property>
+        </item>
+        <item row="4" column="3">
+         <property name="text">
+          <string>Sistem Informasi Manajemen</string>
+         </property>
+        </item>
+        <item row="4" column="4">
+         <property name="text">
+          <string>45673</string>
+         </property>
+        </item>
+        <item row="5" column="0">
+         <property name="text">
+          <string>6</string>
+         </property>
+        </item>
+        <item row="5" column="1">
+         <property name="text">
+          <string>Jogiyanto Hartono</string>
+         </property>
+        </item>
+        <item row="5" column="2">
+         <property name="text">
+          <string>2003</string>
+         </property>
+        </item>
+        <item row="5" column="3">
+         <property name="text">
+          <string>Sistem Informasi Manajemen</string>
+         </property>
+        </item>
+        <item row="5" column="4">
+         <property name="text">
+          <string>45673</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_6">
+     <widget class="QWidget" name="widget_9" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1231</width>
+        <height>611</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <widget class="QWidget" name="widget_22" native="true">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>1191</width>
+         <height>571</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(229, 229, 229);</string>
+       </property>
+       <widget class="QLabel" name="label_41">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>10</y>
+          <width>161</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+          <bold>true</bold>
+          <underline>false</underline>
+         </font>
+        </property>
+        <property name="text">
+         <string>LAPORAN</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="cetak_peminjaman">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>110</y>
+          <width>251</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	border-radius:5px;
+	background-color: rgb(0, 177, 0);
+	border: 0px solid;
+}
+QPushButton:hover {
+	background-color: rgb(0, 227, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Cetak Laporan Peminjaman</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="cetak_pengembalian">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>220</y>
+          <width>251</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	border-radius:5px;
+	background-color: rgb(0, 177, 0);
+	border: 0px solid;
+}
+QPushButton:hover {
+	background-color: rgb(0, 227, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Cetak Laporan Pengembalian</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="cetak_laporan">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>330</y>
+          <width>251</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	border-radius:5px;
+	background-color: rgb(0, 177, 0);
+	border: 0px solid;
+}
+QPushButton:hover {
+	background-color: rgb(0, 227, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Cetak Laporan Buku</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../beranda/source.qrc"/>
+ </resources>
+ <connections/>
+</ui>
