@@ -1,5 +1,7 @@
 # Program-GUI
-Aplikasi Desktop/ GUI myLibKOM (aplikasi admin perpustakaan sederhana) 
+Aplikasi Desktop/ GUI myLibKOM (aplikasi admin perpustakaan sederhana).
+
+program ini menggunakan bahasa python dengan Ui generator "Qt Designer" dan menggunakan database sqlite 
 
 Pengembang Aplikasi ini 
 1. Nur Afan Syarifudin 
