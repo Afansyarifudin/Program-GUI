@@ -11,4 +11,4 @@ Pengembang Aplikasi ini
 
 - Untuk menjalankan program ini silahkan unduh source code program
 - program ini sudah menggunakan database pada halaman login. untuk mengetahui databasenya dapat menggunakan software DB browser 
-- program ini dapat dijalankan dengan run aplikasi dengan nama "login"
+- program ini dapat dijalankan dengan run aplikasi dengan nama "login.exe"
